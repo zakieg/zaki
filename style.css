@@ -1,0 +1,161 @@
+
+body{
+    direction: rtl;
+    background-color: #f1f1f1;
+    font-family: 'Cairo', sans-serif;
+}
+.a1{
+    background-color: #1e90ff;
+    text-decoration: blink;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* start body page */
+
+/* start web-enter */
+.web-enter{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #DDD;
+}
+.web-enter button:first-of-type{
+    background-color: dodgerblue;
+    color: floralwhite;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    margin-left:10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.web-enter button:last-of-type{
+    background-color: #44c535;
+    color: floralwhite;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+}
+/* end web-enter */
+
+/* start navbar */
+.navbar{
+    background-color:#1e90ff;
+}
+
+.navbar ul li{
+    display: inline-block;
+    color: #FFF;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover {
+    font-weight: bold;
+    background-color: #2fb2ff;
+}
+/* end navbar */
+
+/* start web-content */
+.web-content div {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 8px
+}
+
+.web-content img {
+    width: 100%;
+}
+/* end web-content */
+
+/* start pagination */
+.pagination {
+    text-align: center;
+}
+
+.pagination div {
+    display: inline-block;
+    background-color: #1e90ff;
+    color: #FFF;
+    padding: 2px 10px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+/* end pagination */
+
+/* end body page */
+
+/* start profile page */
+.profile-img{
+    text-align: center;
+}
+.profile-img h3{
+    margin-top: -37px;
+}
+
+/* start upload-img */
+.upload-img{
+    text-align: center;
+    margin: 52px 0;
+}
+
+.upload-img button{
+    background-color: dodgerblue;
+    color: #FFF;
+    padding: 12px 28px;
+    font-family: inherit;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+}
+/* end upload-img */
+
+
+/* end profile page */
+
+/* start login page */
+.web-login {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.web-login fieldset {
+    padding: 40px 0;
+}
+
+.web-login input {
+    display: block;
+    margin: 0 auto;
+    width: 448px;
+    padding: 6px 0px;
+    margin-bottom: 10px;
+    text-indent: 8px;
+}
+/* end login page */
+/* start creataccount page */
+.web-creataccount {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.web-creataccount fieldset {
+    padding: 40px 0;
+}
+
+.web-creataccount input {
+    display: block;
+    margin: 0 auto;
+    width: 448px;
+    padding: 6px 0px;
+    margin-bottom: 10px;
+    text-indent: 8px;
+}
+    /* end creataccount page */
+    .b1{
+        cursor: pointer;
+    }
